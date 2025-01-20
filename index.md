@@ -38,7 +38,7 @@
         const firstThreeParams = parts.slice(0, 3);
 	const code1 = firstThreeParams[0];
 	const code2 = firstThreeParams[1];
-	const code3 = firstThreeParams[2];
+	const code3 = firstThreeParams[2]; 
 
         // Output the result as separate values in the console
         console.log(code1+'Code 1 > ' + firstThreeParams[0]);
