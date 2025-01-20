@@ -36,11 +36,14 @@
 
         // Get the first three parameters
         const firstThreeParams = parts.slice(0, 3);
+	const code1 = firstThreeParams[0];
+	const code2 = firstThreeParams[1];
+	const code3 = firstThreeParams[2];
 
         // Output the result as separate values in the console
-        console.log('Code 1 > ' + firstThreeParams[0]);
-        console.log('Code 2 > ' + firstThreeParams[1]);
-        console.log('Code 3 > ' + firstThreeParams[2]);
+        console.log(code1+'Code 1 > ' + firstThreeParams[0]);
+        console.log(code2+'Code 2 > ' + firstThreeParams[1]);
+        console.log(code3+'Code 3 > ' + firstThreeParams[2]);
     </script>
 
   </body>
